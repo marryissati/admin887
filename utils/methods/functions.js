@@ -18,7 +18,7 @@ import { database, storageRef, admin } from "../../firebase/firebase";
 export const rightUrl = (extention) => {
     const url = {
         local: "http://localhost:3000/api/admin/",
-        remote: `https://admin88-alpha.vercel.app/api/admin/`
+        remote: `https://admin889.vercel.app/api/admin/`
     }
 
     return process.env.NEXT_PUBLIC_VERCEL_URL ? `${url.remote}${extention}` : `${url.local}${extention} `
