@@ -8,7 +8,9 @@ import { Input, Spinner } from "../components";
 import { signupData } from "../data";
 
 import classes from "../styles/signup.module.css";
+import { deleteDocFromUserFiles, rightUrl } from "../utils/methods/functions"
 
+console.log(rightUrl("hamid"));
 export default function Signup() {
   const { user, loading } = useFetchUser();
 
