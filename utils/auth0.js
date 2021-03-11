@@ -10,8 +10,8 @@ export default initAuth0({
   scope: "openid profile",
   // redirectUri:  "http://localhost:3000/api/callback",
   // postLogoutRedirectUri: "http://localhost:3000/",
-  redirectUri: process.env.NEXT_PUBLIC_VERCEL_URL ? `https://admin88-alpha.vercel.app/api/callback` : "http://localhost:3000/api/callback",
-  postLogoutRedirectUri: process.env.NEXT_PUBLIC_VERCEL_URL ? 'https://admin88-alpha.vercel.app/' : "http://localhost:3000/",
+  redirectUri: process.env.NEXT_PUBLIC_VERCEL_URL ? `https://admin889.vercel.app/api/callback` : "http://localhost:3000/api/callback",
+  postLogoutRedirectUri: process.env.NEXT_PUBLIC_VERCEL_URL ? 'https://admin889.vercel.app/' : "http://localhost:3000/",
 
   session: {
     // The secret used to encrypt the cookie.
