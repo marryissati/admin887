@@ -1,0 +1,26 @@
+.deleteIcon{
+    color:#ffcccc;
+    cursor:pointer;
+
+
+
+}
+.deleteIcon:hover{
+    color:red;
+    
+
+}
+
+
+.downloadIcon{
+    color:#b1b1ff;
+    cursor:pointer;
+
+
+
+}
+.downloadIcon:hover{
+    color:#6565ff
+    
+
+}
